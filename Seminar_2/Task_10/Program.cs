@@ -13,7 +13,6 @@ int SecondNumberOf(int number)
 }
 
 int number = new Random().Next(100,1000);
-Console.WriteLine("Рандомное число " + number);
-//PartitionOfNumber(number);
+Console.WriteLine("Рандомное число " + number); 
 
 Console.WriteLine("Вторая цифра трёхзначного числа: " + SecondNumberOf(number));
