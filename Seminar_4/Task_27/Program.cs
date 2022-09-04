@@ -29,7 +29,7 @@ int TheSumOfTheDigitsInANumber(int num)
         result = temporary1 + temporary2;
     }
 
-    else if (amountOfDigitsInANumber == 3)       //result = num / 100 + num % 100;
+    else if (amountOfDigitsInANumber == 3)      
     {
         temporary1 = num / 100;
         temporary2 = num % 100 / 10;
