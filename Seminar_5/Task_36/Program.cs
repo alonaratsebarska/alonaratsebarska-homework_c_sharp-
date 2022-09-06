@@ -10,7 +10,7 @@ void FillArrayWithRandomNumbers(int[] array)
     int i = 0;
     while (i < length)
     {
-        array[i] = new Random().Next(1, 100);
+        array[i] = new Random().Next(-50, 100);
         i++;
     }
 }
@@ -28,7 +28,7 @@ void PrintArray(int[] array)
     }
 }
 
-int lengthOfArray = new Random().Next(5, 20);
+int lengthOfArray = 8;
 int[] array = new int[lengthOfArray];
 
 FillArrayWithRandomNumbers(array);
@@ -36,7 +36,7 @@ FillArrayWithRandomNumbers(array);
 int sumOfUnevenNumbers = 0;
 for (int i = 0; i < lengthOfArray; i++)
 {
-    if (array[i] % 2 != 0) sumOfUnevenNumbers += array[i];
+    if (i % 2 != 0) sumOfUnevenNumbers += array[i];
 }
 
 PrintArray(array);
