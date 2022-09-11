@@ -10,4 +10,4 @@ Console.Write("Vvedite chislo: ");
 int number = Convert.ToInt32(Console.ReadLine());
 string binNumber = Convert.ToString(number,2);
  
-Console.WriteLine(binNumber); //выведет - "1100"
+Console.WriteLine(binNumber);
